@@ -1,0 +1,32 @@
+.about {
+  background-image: url('./image/about-page-bg.png');
+}
+.about-info {
+  padding: 100px 0;
+}
+.about-info img {
+  width: 50%;
+}
+.about-info p {
+  font-size: 20px;
+  text-align: left;
+  margin: 20px 0;
+}
+.about-info span {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0px;
+  color: #db8e00;
+}
+.about-info_top {
+  align-items: flex-start;
+}
+.about-info_top > div{
+  padding-left: 30px;
+}
+.about-info_bottom >div {
+  padding-right:30px;
+}
+.about-info_bottom{
+  flex-direction: row-reverse;
+}
